@@ -27,7 +27,7 @@ jobs:
           java-version: 21
 
       - name: Preparar el SDK de Android
-        uses: android-actions/setup-android@v3
+        uses: android-actions/setup-android@v4
 
       - name: Instalar dependencias
         run: npm ci
